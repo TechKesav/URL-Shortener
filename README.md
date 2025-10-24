@@ -105,5 +105,9 @@ cd url-shortener
 ```bash
 mvn spring-boot:run
 ```
+## Images
+
+<img width="1918" height="905" alt="Screenshot 2025-10-24 130848" src="https://github.com/user-attachments/assets/4fb0987c-7067-42f6-bf7f-8eef2e0fb9b3" />
+<img width="1917" height="905" alt="Screenshot 2025-10-24 131114" src="https://github.com/user-attachments/assets/8c5d285f-9ff3-487f-a4a1-f8b89e55bef5" />
 
 ---
