@@ -58,14 +58,16 @@ src/
  | longUrl | String | Original long URL |
 
  **Example Request:**
- ```bash
+ 
  curl -X POST "http://localhost:8080/api/url/shorten?longUrl=https://www.google.com"
 
  **Response:**
 
-http://localhost:8080/api/url/abc123
+ http://localhost:8080/api/url/abc123
+ 
+---
 
-2️⃣ Redirect Short URL
+##2️⃣ Redirect Short URL
 
 Endpoint:
 GET /api/url/{shortCode}
@@ -73,7 +75,7 @@ GET /api/url/{shortCode}
 Behavior:
 Redirects to the original long URL stored in the database.
 
-💾 H2 Database
+##💾 H2 Database
 Access Console
 
 URL: http://localhost:8080/h2-console
@@ -84,25 +86,13 @@ Username: sa
 
 Password: (leave blank)
 
-🖥️ Running the Project
+#🖥️ Running the Project
 
-Clone Repository
+##Clone Repository
 
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortener
 
-
-Run Application
+##Run Application
 
 mvn spring-boot:run
-
-
-Access UI
-
-Open: http://localhost:8080
-
-Enter a long URL and click Shorten
-
-Access H2 Console
-
-http://localhost:8080/h2-console
